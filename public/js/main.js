@@ -1,5 +1,6 @@
 (function () {
     'use strict';
+
     var isMobile = {
         Android: function () {
             return navigator.userAgent.match(/Android/i);
@@ -143,6 +144,7 @@
             }
         }
     });
+
     // Gift Registry owlCarousel
     $('.gift .owl-carousel').owlCarousel({
         loop: true
@@ -265,6 +267,8 @@
         .done(done_func)
         .fail(fail_func);
     });
+
+
 
 }());
 

@@ -1373,7 +1373,7 @@ body.offcanvas .oliven-nav-toggle {
 }
 
 
-/* story-wedding */
+/* story-Wedding */
 
 .story-wedding {
     -webkit-animation: rotation 12s infinite linear;
@@ -2127,7 +2127,7 @@ body.offcanvas .oliven-nav-toggle {
 }
 .blog-page .post-cont .tag:hover,
 .blog-page .post-cont .date:hover {
-  color: #BD945A;  
+  color: #BD945A;
 }
 .blog-page .post-cont h5 {
     font-size: 27px;
@@ -2321,7 +2321,7 @@ body.offcanvas .oliven-nav-toggle {
     border: 1px solid #BD945A;
     color: #fff;
 }
-.blog-pagination-wrap li a i { 
+.blog-pagination-wrap li a i {
     font-size: 11px;
 }
 @media screen and (max-width: 768px) {

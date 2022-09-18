@@ -57,7 +57,7 @@
             offset: '85%'
         });
     };
-    // Burger Menu 
+    // Burger Menu
     var burgerMenu = function () {
         $('.js-oliven-nav-toggle').on('click', function (event) {
             event.preventDefault();
@@ -173,8 +173,8 @@
     .click(function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
@@ -201,7 +201,7 @@
       }
     }
   });
-    // Gallery 
+    // Gallery
     $(window).on("load", function () {
     var e = $(".gallery-filter")
         , a = $("#gallery-filter");
@@ -235,8 +235,8 @@
         , preload: [0, 1]
     }
 });
-    
-     // RSVP FORM 
+
+     // RSVP FORM
     var form = $('.contact__form'),
         message = $('.contact__msg'),
         form_data;
@@ -266,12 +266,12 @@
         .done(done_func)
         .fail(fail_func);
     });
-    
-    
-    
+
+
+
 }());
 
-// Countdown wedding
+// Countdown Wedding
   (function () {
   const second = 1000,
         minute = second * 60,
@@ -279,7 +279,7 @@
         day = hour * 24;
   let birthday = "Dec 15, 2022 00:00:00",
       countDown = new Date(birthday).getTime(),
-      x = setInterval(function() {    
+      x = setInterval(function() {
         let now = new Date().getTime(),
             distance = countDown - now;
 
@@ -294,7 +294,7 @@
               countdown = document.getElementById("countdown"),
               content = document.getElementById("content");
 
-          headline.innerText = "It's our wedding!";
+          headline.innerText = "It's our Wedding!";
           countdown.style.display = "none";
           content.style.display = "block";
 
@@ -303,4 +303,3 @@
         //seconds
       }, 0)
   }());
-    

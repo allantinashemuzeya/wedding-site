@@ -53,6 +53,8 @@
         <!-- Main -->
         <div id="oliven-page">
 
+            <a href="#" class="js-oliven-nav-toggle oliven-nav-toggle"><i></i></a>
+
             @inertia
 
             <!-- jQuery -->
